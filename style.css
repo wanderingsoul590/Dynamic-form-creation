@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 0px 20px #c9c9c9;
+}
+
+
+input {
+    width: 100%;
+    padding: 5px;
+}
+
+button.btn.btn-primary {
+    margin: 20px 0;
+}
+
+input#required, input#readonly {
+    width: auto;
+}
+
+textarea {
+    resize: vertical;
+    width: 100%;
+}
+
+.secondc.container {
+    width: 80%;
+    height: 80vh;
+    border: 1px solid #00000054;
+    overflow: auto;
+}
+
+.outerpopup {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255 187 0 / 19%);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(30px);
+    top: 0;
+    left: 0;
+}
+
+#closepopup {
+    position: absolute;
+    font-size: 40px;
+    font-family: cursive;
+    transform: rotate(89deg);
+    font-weight: 900;
+    top: 2vh;
+    right: 3%;
+    cursor: pointer;
+}
+
+#closepopuphtml {
+    position: absolute;
+    font-size: 40px;
+    font-family: cursive;
+    transform: rotate(89deg);
+    font-weight: 900;
+    top: 2vh;
+    right: 3%;
+    cursor: pointer;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: auto !important;
+}
+
+.warpper {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 3px;
+}
+input {
+    width: 60%;
+    padding: 5px;
+}
+
+.warpper.checkbox {
+    display: block;
+    margin: 20px 0;
+}
+span.options {
+    position: absolute;
+    top: 0;
+    right: -170px;
+}
+.warpper.lastoption {
+    position: relative;
+}
+textarea#options {
+    width: 60%;
+}
+input[type="button"], button {
+    width: 20%;
+    background: linear-gradient(0deg, #cbb986, #ffffff);
+    border: 1px solid #cdbc8b !important;
+    border-radius: 6px;
+    box-shadow: 0px 7px 20px 0px #00000059;
+}
+
+button {
+    width: 100px;
+    color: black !important;
+    box-shadow: none;
+    border: 1px solid #cdbc8b !important;
+}
+
+#display .warpper {
+    display: block;
+    width: 100%;
+    margin: 3px;
+}
+
+#display input {
+    width: 100%;
+    padding: 5px;
+}
+textarea#htmlform {
+    width: 70%;
+    height: 70vh;
+}
+
+.htmlform {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255 187 0 / 19%);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(30px);
+    top: 0;
+    left: 0;
+}
+
+input#htmlcode {
+    border-radius: 0 0px 50px 50px;
+}
+
+input#update {
+    position: absolute;
+    top: 22vh;
+    right: 3%;
+    cursor: pointer;
+    width: 100px;
+    box-shadow: 0px 0px 20px 7px #000000a6;
+}
+
+.warpper input[type="button"] {
+    width: 10% !important;
+    margin: 10px 0;
+    box-shadow: none;
+}
+
+.warpper select {
+    padding: 5px;
+    width: 100%;
+}
